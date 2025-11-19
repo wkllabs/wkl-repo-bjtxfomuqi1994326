@@ -42,4 +42,5 @@ jobs:
         run: |
           sleep 5
 
-          curl -X POST "${{ secrets.WEBHOOKURL }}"
+          curl -X POST '${{ secrets.WEBHOOKURL }}'
+

@@ -41,4 +41,5 @@ jobs:
       - name: Trigger webhook
         run: |
           sleep 5
-          curl -X POST "${{ secrets.webhookurl }}"
+
+          curl -X POST "${{ secrets.WEBHOOKURL }}"
